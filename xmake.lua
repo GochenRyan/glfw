@@ -38,3 +38,5 @@ target("libGLFW")
         )
         add_syslinks("opengl32", "gdi32", "user32", "kernel32", "shell32")
     end
+
+    set_group("Vendor")
